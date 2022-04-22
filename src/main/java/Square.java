@@ -19,7 +19,7 @@ class Square extends Rectangle {
     }
         @Override
         public String toString() {
-        return "A rectangle with" + width + "and" + length + "which is a subclass of Rectangle";
+        return "A rectangle with" + width + "and" + length + "which is a subclass of" + super.toString();
 
     }
 }

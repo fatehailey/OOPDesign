@@ -29,7 +29,7 @@ class Rectangle extends Shape{
 
     @Override
     public String toString(){
-        return "A rectangle with" +width+ "and" +length+ "which is a subclass of Shape";
+        return "A rectangle with" +width+ "and" +length+ "which is a subclass of" +super.toString();
 
     }
 }
